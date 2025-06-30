@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT APPLICATION</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="icon-removebg-preview.png" alt="">
+    </nav>
+    <div class="intro">
+        <b>WELCOME TO GOCHAT APPLICATION</b>
+    </div>
+    
+    <div class="container">
+        <div class="message right"> HELLO</div>
+        <div class="message left">HI HOW ARE YOU?</div>
+    </div>
+    <div class="sendmessage">
+        <form action="#" id="send-box" >
+            <input type="text" name="messageInput" id="messageInput">
+            <button class="btn" type="submit">SEND</button>
+        </form>
+    </div>   
+ <script  defer src="http://localhost:5500/socket.io/socket.io.js"></script><!--Expose server for client for connecting client and server  -->
+ <script defer src="client.js"></script>
+</body>
+</html>
